@@ -34,7 +34,7 @@
  33  NumStationsWithPumpsAttending           587073 non-null  float64  Delete
  34  NumPumpsAttending                       587073 non-null  float64  Delete
  35  PumpCount                               587073 non-null  float64
- 36  PumpHoursRoundUp                        586918 non-null  float64  ?
+ 36  PumpHoursRoundUp                        586918 non-null  float64  Delete
  37  Notional Cost (£)                       586918 non-null  float64  Delete
  38  CalYear_y                               587073 non-null  int64    Delete
  39  HourOfCall_y                            587073 non-null  int64    Delete
