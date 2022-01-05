@@ -25,7 +25,7 @@
  24  Northing_rounded                        587073 non-null  int64
  25  Latitude                                245022 non-null  object  Delete
  26  Longitude                               245022 non-null  object  Delete
- 27  FRS                                     587073 non-null  object 
+ 27  FRS                                     587073 non-null  object  Delete ( London only )
  28  IncidentStationGround                   587073 non-null  object 
  29  FirstPumpArriving_AttendanceTime        587071 non-null  float64
  30  FirstPumpArriving_DeployedFromStation   587058 non-null  object 
