@@ -9,28 +9,28 @@
  8   PropertyCategory                        587073 non-null  object 
  9   PropertyType                            587073 non-null  object 
  10  AddressQualifier                        587073 non-null  object 
- 11  Postcode_full                           245022 non-null  object  Delete
+ 11  Postcode_full                           245022 non-null  object  Delete ( n'est pas complet )
  12  Postcode_district                       587073 non-null  object 
  13  UPRN                                    587073 non-null  object 
  14  USRN                                    587073 non-null  int64  
- 15  IncGeo_BoroughCode                      587073 non-null  object 
- 16  IncGeo_BoroughName                      587073 non-null  object 
- 17  ProperCase                              587073 non-null  object 
- 18  IncGeo_WardCode                         587072 non-null  object 
- 19  IncGeo_WardName                         587072 non-null  object 
- 20  IncGeo_WardNameNew                      587072 non-null  object 
+ 15  IncGeo_BoroughCode                      587073 non-null  object  Delete ( preference pour le nom )
+ 16  IncGeo_BoroughName                      587073 non-null  object  Nom en majuscule quartier ( 33 )
+ 17  ProperCase                              587073 non-null  object  Delete ( identique IncGeo_BoroughName )
+ 18  IncGeo_WardCode                         587072 non-null  object  Delete ( preference pour le nom )
+ 19  IncGeo_WardName                         587072 non-null  object  Delete ( on garde le IncGeo_WardNameNew )
+ 20  IncGeo_WardNameNew                      587072 non-null  object  Nom du sous quartier ( 757 )
  21  Easting_m                               245022 non-null  float64 Delete
  22  Northing_m                              245022 non-null  float64 Delete
- 23  Easting_rounded                         587073 non-null  int64  
- 24  Northing_rounded                        587073 non-null  int64
+ 23  Easting_rounded                         587073 non-null  int64   Delete
+ 24  Northing_rounded                        587073 non-null  int64   Delete
  25  Latitude                                245022 non-null  object  Delete
  26  Longitude                               245022 non-null  object  Delete
  27  FRS                                     587073 non-null  object  Delete ( London only )
- 28  IncidentStationGround                   587073 non-null  object 
- 29  FirstPumpArriving_AttendanceTime        587071 non-null  float64
- 30  FirstPumpArriving_DeployedFromStation   587058 non-null  object 
- 31  SecondPumpArriving_AttendanceTime       363278 non-null  float64
- 32  SecondPumpArriving_DeployedFromStation  363269 non-null  object 
+ 28  IncidentStationGround                   587073 non-null  object  Delete ( Ne correspond pas a notre recherche )
+ 29  FirstPumpArriving_AttendanceTime        587071 non-null  float64 Delete ( Ne correspond pas a notre recherche )
+ 30  FirstPumpArriving_DeployedFromStation   587058 non-null  object  Delete ( Ne correspond pas a notre recherche )
+ 31  SecondPumpArriving_AttendanceTime       363278 non-null  float64 Delete ( Ne correspond pas a notre recherche )
+ 32  SecondPumpArriving_DeployedFromStation  363269 non-null  object  Delete ( Ne correspond pas a notre recherche )
  33  NumStationsWithPumpsAttending           587073 non-null  float64  Delete
  34  NumPumpsAttending                       587073 non-null  float64  Delete
  35  PumpCount                               587073 non-null  float64
@@ -41,13 +41,13 @@
  40  ResourceMobilisationId                  587073 non-null  int64  
  41  Resource_Code                           587073 non-null  object 
  42  PerformanceReporting                    587073 non-null  object 
- 43  DateAndTimeMobilised                    587073 non-null  object 
- 44  DateAndTimeMobile                       583270 non-null  object 
- 45  DateAndTimeArrived                      587073 non-null  object 
- 46  TurnoutTimeSeconds                      583264 non-null  float64 OK ?
- 47  TravelTimeSeconds                       583190 non-null  float64 OK
- 48  AttendanceTimeSeconds                   587073 non-null  int64  
- 49  DateAndTimeLeft                         586816 non-null  object 
+ 43  DateAndTimeMobilised                    587073 non-null  object  Delete
+ 44  DateAndTimeMobile                       583270 non-null  object  Delete
+ 45  DateAndTimeArrived                      587073 non-null  object  Delete
+ 46  TurnoutTimeSeconds                      583264 non-null  float64 OK temps de sortie du vehicule
+ 47  TravelTimeSeconds                       583190 non-null  float64 OK temps de trajet
+ 48  AttendanceTimeSeconds                   587073 non-null  int64   TARGET ( temps d'attente )
+ 49  DateAndTimeLeft                         586816 non-null  object  ?
  50  DateAndTimeReturned                     0 non-null       float64  Delete
  51  DeployedFromStation_Code                587060 non-null  object 
  52  DeployedFromStation_Name                587060 non-null  object 
