@@ -1,0 +1,12 @@
+import pandas as pd
+import numpy as np
+Incident = pd.read_csv('LFB Incident data Last 3 years.csv', sep = ';', header = 0)
+Incident.head()
+
+Mobilisation = pd.read_csv('LFB Mobilisation data Last 3 years.csv', sep = ';', header = 0)
+Mobilisation.head()
+
+total = pd.merge(Incident, Mobilisation, on='IncidentNumber')
+
+total.info()
+
