@@ -10,7 +10,7 @@
  9   PropertyType                            587073 non-null  object 
  10  AddressQualifier                        587073 non-null  object 
  11  Postcode_full                           245022 non-null  object  Delete ( n'est pas complet )
- 12  Postcode_district                       587073 non-null  object 
+ 12  Postcode_district                       587073 non-null  object  ( 303 )
  13  UPRN                                    587073 non-null  object 
  14  USRN                                    587073 non-null  int64  
  15  IncGeo_BoroughCode                      587073 non-null  object  Delete ( preference pour le nom )
