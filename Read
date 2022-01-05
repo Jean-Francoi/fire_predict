@@ -9,4 +9,3 @@ Mobilisation.head()
 total = pd.merge(Incident, Mobilisation, on='IncidentNumber')
 
 total.info()
-
